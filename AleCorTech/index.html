@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AleCorTech | Reparación y Tecnología</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="icon" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/icons/gear-fill.svg">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #0e0e0e;
+      color: #f8f9fa;
+    }
+    .hero {
+      background: linear-gradient(135deg, #007bff, #000000);
+      color: white;
+      padding: 100px 20px 60px;
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      animation: fadeInDown 1s ease-out;
+    }
+    .slogan {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #0dcaf0;
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      text-align: right;
+    }
+    @keyframes fadeInDown {
+      from {
+        opacity: 0;
+        transform: translateY(-30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .section-title {
+      margin: 60px 0 30px;
+      text-align: center;
+      color: #0dcaf0;
+    }
+    .card {
+      background-color: #1f1f1f;
+      color: #fff;
+      border: none;
+      height: 100%;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 0 20px rgba(13, 202, 240, 0.2);
+    }
+    .bi {
+      font-size: 2.5rem;
+      color: #0dcaf0;
+      margin-bottom: 10px;
+      transition: transform 0.3s;
+    }
+    .card:hover .bi {
+      transform: rotate(10deg) scale(1.1);
+    }
+    footer {
+      background-color: #000000;
+      padding: 30px 0;
+      text-align: center;
+    }
+    footer a {
+      display: inline-block;
+      margin-top: 10px;
+    }
+    .bg-highlight {
+      background-color: #1c1c1c;
+      border-left: 5px solid #0dcaf0;
+    }
+    .social-icons a {
+      color: #0dcaf0;
+      margin: 0 10px;
+      font-size: 1.5rem;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #ffffff;
+    }
+  </style>
+</head>
+<body>
+
+
+<header class="hero">
+  <img src="/.img/logo.png" alt="Logo AleCorTech" class="position-absolute top-0 start-0 m-4" style="height: 30px;">
+  <div class="container text-center">
+    <h1 class="fw-bold">AleCorTech Reparaciones</h1>
+    <p class="lead">Soluciones tecnológicas, confiables y con experiencia.</p>
+    <p class="mt-3">
+      <strong>Alejandro Cordero</strong> | Técnico con más de <strong>7 <span style="font-weight:800">años de experiencia</span></strong><br>
+      Estudiante de <strong>Ingeniería en Tecnologías de la Información</strong> en la <strong>Universidad Técnica Nacional (UTN)</strong>
+    </p>
+  </div>
+</header>
+
+<section class="container my-5">
+  <h2 class="section-title">¿Qué ofrecemos?</h2>
+  <div class="row text-center">
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-tools"></i>
+        <h5 class="card-title mt-2">Reparación</h5>
+        <p>Solucionamos fallas de hardware y software, optimizando el rendimiento.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-bag"></i>
+        <h5 class="card-title mt-2">Venta</h5>
+        <p>Componentes, repuestos, laptops y asesoría para que compres bien.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-shield-lock"></i>
+        <h5 class="card-title mt-2">Técnico</h5>
+        <p>Instalaciones, soporte remoto y recuperación de datos.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-person-gear"></i>
+        <h5 class="card-title mt-2">Asesorías</h5>
+        <p>Mantenimientos y acompañamiento profesional en cada necesidad.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-microsoft"></i>
+        <h5 class="card-title mt-2">Activación de Office</h5>
+        <p>Te ayudamos a activar y configurar Microsoft Office en tu equipo.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-windows"></i>
+        <h5 class="card-title mt-2">Activación de Windows</h5>
+        <p>Activamos tu Windows para asegurarte una instalación legal y funcional.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-bug"></i>
+        <h5 class="card-title mt-2">Eliminación de Virus</h5>
+        <p>Eliminamos virus, malware y programas maliciosos de tu equipo.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-shield-check"></i>
+        <h5 class="card-title mt-2">Instalación de Antivirus</h5>
+        <p>Instalamos y configuramos antivirus confiables para proteger tu equipo.</p>
+      </div>
+    </div>
+    <div class="col-md-3 mb-4 d-flex">
+      <div class="card p-4 w-100">
+        <i class="bi bi-lock"></i>
+        <h5 class="card-title mt-2">Protección en Tiempo Real</h5>
+        <p>Configuramos protección en tiempo real para prevenir futuras infecciones.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="container my-5">
+  <h2 class="section-title">¿Quién está detrás de AleCorTech?</h2>
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-4">
+      <img src="https://revistaseguridad360.com/wp-content/uploads/2022/11/reparacion-de-computadores.jpg" class="img-fluid rounded shadow" alt="Tecnología" style="height: 400px;">
+    </div>
+    <div class="col-md-6">
+      <div class="bg-highlight p-4 rounded">
+        <p>Soy <strong>Alejandro Cordero</strong>, fundador de <strong>AleCorTech</strong>. Con más de 7 años de experiencia en el sector tecnológico, brindo soluciones personalizadas y profesionales.</p>
+        <p>Estudio <strong>Ingeniería en Tecnologías de la Información</strong> en la <strong>Universidad Técnica Nacional</strong>. Mi pasión es ayudar a las personas a sacar el máximo provecho de la tecnología.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="container my-5">
+  <h2 class="section-title">Contáctanos</h2>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <div class="bg-dark p-4 rounded shadow-sm text-light">
+        <p><i class="bi bi-envelope-fill" style="font-size: 1rem;"></i> <strong>Email:</strong> <a href="mailto:alecordero2610@gmail.com" class="text-info">alecordero2610@gmail.com</a></p>
+        <p><i class="bi bi-telephone-fill" style="font-size: 1rem;"></i> <strong>6072 2762</strong></p>
+        <form onsubmit="enviarWhatsApp(event)" class="mt-3">
+          <div class="mb-3">
+            <input type="text" id="nombre" class="form-control" placeholder="Tu nombre" required>
+          </div>
+          <div class="mb-3">
+            <textarea id="mensaje" class="form-control" rows="3" placeholder="¿Qué necesitas?" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-success w-100">
+            <i class="bi bi-whatsapp" style="font-size: 1.2rem;"></i> Enviar por WhatsApp
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container text-center">
+    <p class="mb-1">&copy; 2025 AleCorTech. Desarrollado por</p>
+    <a href="https://AleCorTech.com" target="_blank" title="Ir al sitio de AleCorTech">
+      <img src="/.img/logo.png" alt="Logo AleCorTech" style="height: 40px;">
+    </a>
+    <div class="social-icons mt-3">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  function enviarWhatsApp(event) {
+    event.preventDefault();
+    const nombre = document.getElementById('nombre').value.trim();
+    const mensaje = document.getElementById('mensaje').value.trim();
+    if (!nombre || !mensaje) return;
+    const texto = `Hola, soy ${nombre}. Necesito lo siguiente: ${mensaje}`;
+    const url = `https://wa.me/50660722762?text=${encodeURIComponent(texto)}`;
+    window.open(url, '_blank');
+  }
+</script>
+</body>
+</html>
